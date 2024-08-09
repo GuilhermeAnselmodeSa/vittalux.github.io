@@ -1,0 +1,148 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4c2bf;
+}
+
+/* cabeçalho */
+.header-component-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: #053114;
+  position: fixed;
+}
+
+.logo {
+  height: 400px;
+  max-width: 100%;
+  position: fixed;
+}
+
+.btnCadastro {
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  margin-left: 80%;
+  background-color: #C0A36E;
+  padding: 0.5%;
+  color: #800020;
+  cursor: pointer;
+}
+
+.btnLogar {
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C0A36E;
+  padding: 0.5%;
+  margin: 4%;
+  width: 5%;
+  color: #800020;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btnCadastro {
+  background-color: #A8895B;
+}
+
+.btnLogar {
+  background-color: #A8895B;
+}
+
+/* conteudo */
+.content-home {
+  overflow-y: auto; /* Adicionei overflow para a barra de rolagem */
+  display: grid;
+  grid-template-columns: repeat(2,1fr); /* Mudei para coluna */
+  align-items: center;
+  padding-top: 150px;
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+
+.quemSomos {
+  width: 60%;
+  font-size: larger;
+  padding: 18px;
+  background-color: #053114;
+  color: #A8895B;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
+  margin-bottom: 14px; /* Adicionei espaço inferior */
+  margin-top: 14px;
+  justify-content: baseline;
+}
+
+.blocoProduto {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Adicionei espaço inferior */
+}
+
+.produto {
+  max-width: 100%;
+  height: auto;
+}
+
+.triggersVendas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* recurso para "pulsar" o botao
+ */
+.btnVenda {
+  background-color: #d3a123;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 15px;
+  color: #053114;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 100%;
+}
+
+
+.footer-component-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%; /* Ajustei a largura */
+  background-color: #053114;
+  margin-top: 20px; /* Adicionei espaço superior */
+}
+
+
+.content-home::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+.content-home::-webkit-scrollbar-track {
+  background: #800020; /* Cor do trilho */
+  border-radius: 10px;
+}
+
+.content-home::-webkit-scrollbar-thumb {
+  background-color: #C0A36E; /* Cor da barra de rolagem */
+  border-radius: 10px;
+  border: 3px solid #800020; /* Adicione uma borda */
+}

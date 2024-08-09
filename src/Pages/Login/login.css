@@ -1,0 +1,135 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c4c2bf;
+  }
+  
+  /* cabeçalho */
+  .header-component-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: #053114;
+    position: fixed;
+  }
+  
+  .logo-login {
+    height: 400px;
+    max-width: 100%;
+    position: fixed;
+  }
+  
+  .btnCadastro-login {
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 80%;
+    background-color: #C0A36E;
+    padding: 0.5%;
+    color: #800020;
+    cursor: pointer;
+  }
+  
+  .btnLogar-login {
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0A36E;
+    padding: 0.5%;
+    margin: 4%;
+    width: 5%;
+    color: #800020;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .btnCadastro-login {
+    background-color: #A8895B;
+  }
+  
+  .btnLogar-login {
+    background-color: #A8895B;
+  }
+  
+  /* conteúdo */
+  .content-login {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    align-content: center;
+    padding-top: 150px;
+    height: calc(100vh - 150px);
+    width: 40%;
+    /* grid-template-rows: repeat(3,1fr); Mudei para coluna */
+  }
+  
+  .form-container-login {
+    display: grid;
+    align-content: center;
+    height: 10%;
+    width: 50%;
+    font-size: larger;
+    padding: 25%;
+    background-color: #053114;
+    color: #A8895B;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Adicionei espaço inferior */
+    margin-top: 20%;
+    padding-left: 15%;
+    /* justify-content: baseline; */
+    /* margin-left: 150%; */
+  }
+  
+  /* footer */
+  .footer-component-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #053114;
+    color: #A8895B;
+    margin-top: 4.7%;
+    
+  }
+  
+  .content-login::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+  }
+  
+  .content-login::-webkit-scrollbar-track {
+    background: #800020; /* Cor do trilho */
+    border-radius: 10px;
+  }
+  
+  .content-login::-webkit-scrollbar-thumb {
+    background-color: #C0A36E; /* Cor da barra de rolagem */
+    border-radius: 10px;
+    border: 3px solid #800020; /* Adicione uma borda */
+  }
+
+  #btnLogar-login{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0A36E;
+    padding: 1%;
+    margin: 10%;
+    width: 60%;
+    color: #800020;
+    text-align: center;
+    cursor: pointer;
+  }

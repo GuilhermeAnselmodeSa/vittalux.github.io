@@ -1,0 +1,145 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-compras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4c2bf;
+  min-height: 100vh;
+}
+
+/* Cabeçalho */
+.header-component-compras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #053114;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.logo-compras {
+  height: 400px;
+  max-width: 100%;
+  padding-left: 12%;
+}
+
+.btnCadastro-compras, .btnLogar-compras {
+  border: none;
+  border-radius: 15px;
+  background-color: #A8895B;
+  padding: 10px 20px;
+  color: #800020;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.btnCadastro-compras:hover, .btnLogar-compras:hover {
+  background-color: #C0A36E;
+}
+
+/* Conteúdo */
+.content-compras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.produto-container-compras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.produto-imagem-compras {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.produto-info-compras {
+  margin-top: 20px;
+}
+
+.produto-info-compras h1 {
+  font-size: 24px;
+  color: #053114;
+  margin-bottom: 10px;
+}
+
+.preco-compras {
+  font-size: 20px;
+  color: #800020;
+  margin-bottom: 5px;
+}
+
+.preco-parcelado-compras {
+  font-size: 16px;
+  color: #A8895B;
+  margin-bottom: 5px;
+}
+
+.frete-compras {
+  font-size: 14px;
+  color: #053114;
+  margin-bottom: 20px;
+}
+
+.btnComprar-compras {
+  border: none;
+  border-radius: 15px;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnComprar-compras:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer-component-compras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #053114;
+  color: #A8895B;
+  margin-top: auto;
+}
+
+.content-compras::-webkit-scrollbar {
+  width: 12px;
+}
+
+.content-compras::-webkit-scrollbar-track {
+  background: #800020;
+  border-radius: 10px;
+}
+
+.content-compras::-webkit-scrollbar-thumb {
+  background-color: #C0A36E;
+  border-radius: 10px;
+  border: 3px solid #800020;
+}
