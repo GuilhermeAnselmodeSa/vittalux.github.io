@@ -2,6 +2,7 @@ import React from 'react'
 import './index.css';
 import logo from '../../img/logo.png'
 import produto from '../../img/produto.png'
+import { Link, useNavigate } from 'react-router-dom';
 
 function Home() {
   return (
@@ -26,7 +27,9 @@ function Home() {
             <img  alt="produto" src={produto} className="produto" />
           </div>
           <div className="triggersVendas">
-              <button className='btnVenda'>QUERO COMPRAR</button>
+            <Link className="btnVenda" to='/compras'>
+                          <button id='btnComprar'>QUERO COMPRAR</button>
+            </Link>
        </div>    
       </div>
       {/* triggers vendas */}

@@ -125,7 +125,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 150px;
   width: 100%; /* Ajustei a largura */
   background-color: #053114;
   margin-top: 20px; /* Adicionei espaço superior */
@@ -145,4 +145,76 @@
   background-color: #C0A36E; /* Cor da barra de rolagem */
   border-radius: 10px;
   border: 3px solid #800020; /* Adicione uma borda */
+}
+
+#btnComprar{
+  background-color: #d3a123;
+  border: none;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  .header-component-home {
+    height: 120px; /* Reduz a altura do cabeçalho */
+  }
+
+  .logo {
+    height: 200px; /* Ajusta o tamanho da logo */
+    position: relative; /* Remove o posicionamento fixo */
+  }
+
+  .btnCadastro, .btnLogar {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 10px 0; /* Ajusta as margens para centralizar os botões */
+    font-size: 13px; /* Reduz o tamanho da fonte */
+    padding: 8px; /* Ajusta o preenchimento */
+  }
+
+  .content-home {
+    grid-template-columns: 1fr; /* Altera para uma única coluna */
+    padding-top: 130px; /* Ajusta o padding para o conteúdo */
+    height: auto; /* Permite que o conteúdo tenha altura automática */
+  }
+
+  .quemSomos {
+    width: 70%;
+    font-size: medium; /* Ajusta o tamanho da fonte */
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+
+  .blocoProduto {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .produto {
+    width: 100%; /* Ajusta a imagem do produto para ocupar a largura completa */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  .btnVenda {
+    padding: 10px 30px;
+    margin-left: 110px; /* Centraliza o botão */
+    font-size: 14px; /* Reduz o tamanho da fonte */
+  }
+
+  .footer-component-home {
+    height: 120px; /* Reduz a altura do rodapé */
+    flex-direction: column; /* Alinha o conteúdo em uma coluna */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .content-home::-webkit-scrollbar {
+    width: 8px; /* Reduz a largura da barra de rolagem */
+  }
+  #btnComprar{
+    background-color: #d3a123;
+    border: none;
+    
+  
+  }
 }

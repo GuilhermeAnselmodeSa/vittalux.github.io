@@ -12,8 +12,8 @@ function Login() {
         
         <button className="btnCadastro-login">Cadastre-se</button>
 
-        <Link to="/login" className="btnLogar-login">
-        <button className="btnLogar-login">Login</button>
+        <Link to="/login" >
+        <button  className="btnLogar-login">Login</button>
         </Link>
       
       </div>
@@ -22,7 +22,7 @@ function Login() {
       <div className="content-login">
         <div className="form-container-login">
           <h2>Login</h2>
-          <form>
+          <form id="formLogin">
             <label htmlFor="email">Email:</label>
             <input type="email" id="email" name="email" />
 

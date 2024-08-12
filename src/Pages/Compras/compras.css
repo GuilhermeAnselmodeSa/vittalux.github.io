@@ -15,14 +15,12 @@
 /* Cabeçalho */
 .header-component-compras {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 150px;
   width: 100%;
   background-color: #053114;
-  padding: 0 20px;
   position: fixed;
-  top: 0;
   z-index: 1000;
 }
 
@@ -30,10 +28,11 @@
 .logo-compras {
   height: 400px;
   max-width: 100%;
-  padding-left: 12%;
+  padding-left: 11%;
 }
 
 .btnCadastro-compras, .btnLogar-compras {
+
   border: none;
   border-radius: 15px;
   background-color: #A8895B;
@@ -41,6 +40,11 @@
   color: #800020;
   cursor: pointer;
   margin: 0 10px;
+
+}
+
+.btnCadastro-compras:hover, .btnLogar-compras:hover {
+  background-color: #C0A36E;
 }
 
 .btnCadastro-compras:hover, .btnLogar-compras:hover {
@@ -53,8 +57,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top: 120px;
-  padding-bottom: 20px;
+  height: auto;
+  padding: 20px 0; /* Adjust padding to reduce space at the top */
+  z-index: 500;
 }
 
 .produto-container-compras {
@@ -65,6 +70,7 @@
   border-radius: 15px;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
   padding: 20px;
+  margin-top: 150px;
   max-width: 500px;
   width: 100%;
   text-align: center;
@@ -122,24 +128,105 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 100px;
   width: 100%;
   background-color: #053114;
   color: #A8895B;
   margin-top: auto;
 }
 
-.content-compras::-webkit-scrollbar {
-  width: 12px;
+@media (max-width: 480px) {
+  .header-component-compras {
+    height: 120px; /* Further reduce the height for mobile */
+  }
+
+  .logo-compras {
+    height: 200px; /* Ajusta o tamanho da logo */
+    position: relative; /* Remove o posicionamento fixo */ 
+
+  }
+
+  .btnCadastro-compras, .btnLogar-compras {
+    width: auto;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .produto-container-compras {
+    width: 300px;
+    padding: 10px;
+  }
+
+  .produto-info-compras h1 {
+    font-size: 18px;
+  }
+
+  .preco-compras {
+    font-size: 16px;
+  }
+
+  .preco-parcelado-compras {
+    font-size: 14px;
+  }
+
+  .frete-compras {
+    font-size: 12px;
+  }
+
+  .btnComprar-compras {
+    padding: 8px 12px;
+  }
 }
 
-.content-compras::-webkit-scrollbar-track {
-  background: #800020;
-  border-radius: 10px;
-}
+@media (max-width: 480px) {
+  .header-component-home-compras {
+    height: 120px; /* Reduz a altura do cabeçalho */
+  }
 
-.content-compras::-webkit-scrollbar-thumb {
-  background-color: #C0A36E;
-  border-radius: 10px;
-  border: 3px solid #800020;
+  .logo-compras {
+    height: 200px; /* Ajusta o tamanho da logo */
+    position: relative; /* Remove o posicionamento fixo */
+    padding-left: 5px
+  }
+
+  .btnCadastro-compras,.btnLogar-compras{
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 10px 0; /* Ajusta as margens para centralizar os botões */
+    font-size: 13px; /* Reduz o tamanho da fonte */
+    padding: 8px;
+  
+  }
+  .btnLogar-compras {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    margin: 10px 0; /* Ajusta as margens para centralizar os botões */
+    font-size: 13px; /* Reduz o tamanho da fonte */
+    padding: 8px; /* Ajusta o preenchimento */
+  }
+
+  .produto-info-compras h1 {
+    font-size: 13px;
+  }
+  .produto-container-compras{
+    height: 350px;
+    width: 250px;
+  }
+  .preco-compras {
+    font-size: 13px;
+  }
+
+  .preco-parcelado-compras {
+    font-size: 12px;
+  }
+
+  .frete-compras {
+    font-size: 12px;
+  }
+
+  .btnComprar-compras {
+    padding: 8px 12px;
+  }
 }

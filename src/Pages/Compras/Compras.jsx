@@ -5,13 +5,15 @@ import logo from '../../img/logo.png'
 
 function Compras() {
   return (
-    <div className="container-compras">
-      {/* cabeçalho */}
+    <>
       <div className="header-component-compras">
         <img id="logoHome" src={logo} alt="Logo" className="logo-compras" />
         <button className="btnCadastro-compras">Cadastre-se</button>
         <button className="btnLogar-compras">Login</button>
       </div>
+
+    <div className="container-compras">
+      {/* cabeçalho */}
       {/* Conteúdo */}
       <div className="content-compras">
         <div className="produto-container-compras">
@@ -31,6 +33,7 @@ function Compras() {
         <p>Todos os Direitos Reservados</p>
       </div>
     </div>
+    </>
   );
 }
 
