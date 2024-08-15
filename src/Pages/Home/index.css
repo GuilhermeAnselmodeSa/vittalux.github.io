@@ -121,7 +121,7 @@
   color: #053114;
   cursor: pointer;
   font-size: 16px;
-  margin-left: 100%;
+  margin-left: 220%;
 }
 
 .footer-component-home {
@@ -232,9 +232,15 @@
   }
 
   .btnVenda {
-    padding: 10px 30px;
-    margin-left: -165px; 
-    font-size: 14px; 
+    background-color: #d3a123;
+    border: none;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 15px;
+    color: #053114;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 0%;
   }
 
   .footer-component-home {

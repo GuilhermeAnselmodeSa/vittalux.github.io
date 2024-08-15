@@ -31,8 +31,8 @@ function Home() {
         </div>
 
     
-          <Link className="btnVenda" to='/compras'>
-            <button id='btnComprar'>QUERO COMPRAR</button>
+          <Link  to='/compras'>
+            <button className="btnVenda">QUERO COMPRAR</button>
           </Link>
 
       </div>
