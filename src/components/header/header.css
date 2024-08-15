@@ -49,3 +49,24 @@
   .btnLogar {
     background-color: #A8895B;
   }
+
+  @media only screen and (max-width: 480px) {
+
+    .header-component-home {
+      height: 120px;
+    }
+  
+    .logo {
+      height: 200px; 
+      position: relative;
+    }
+  
+    .btnCadastro, .btnLogar {
+      display: grid;
+      align-items: center;
+      width: 50%;
+      margin: 10px 0; 
+      font-size: 13px; 
+      padding: 8px; 
+    }
+}
