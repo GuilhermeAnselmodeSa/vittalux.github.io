@@ -1,17 +1,15 @@
 import React from 'react';
 import './cadastro.css';
 import logo from '../../img/logo.png';
+import Footer from '../../components/footer/footer'
+import Header from '../../components/header/header'
 
 
 function Compras() {
   return (
     <div className="container-cadastro">
       {/* cabeçalho */}
-      <div className="header-component-cadastro">
-        <img id="logoHome" src={logo} alt="Logo" className="logo-cadastro" />
-        <button className="btnCadastro-cadastro">Cadastre-se</button>
-        <button className="btnLogar-cadastro">Login</button>
-      </div>
+  <Header />
       
       {/* conteúdo */}
       <div className="content-cadastro">
@@ -51,9 +49,7 @@ function Compras() {
       </div>
 
       {/* footer */}
-      <div className="footer-component-cadastro">
-        <p>Todos os Direitos Reservados</p>
-      </div>
+      <Footer/>
     </div>
   );
 }

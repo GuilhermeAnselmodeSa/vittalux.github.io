@@ -2,21 +2,14 @@ import React from 'react';
 import './login.css';
 import logo from '../../img/logo.png';
 import { Link, useNavigate } from 'react-router-dom';
+import Footer from '../../components/footer/footer'
+import Header from '../../components/header/header'
 
 function Login() {
   return (
     <div className="container-login">
       {/* cabeçalho */}
-      <div className="header-component-login">
-        <img id="logoHome" src={logo} alt="Logo" className="logo-login" />
-        
-        <button className="btnCadastro-login">Cadastre-se</button>
-
-        <Link to="/login" >
-        <button  className="btnLogar-login">Login</button>
-        </Link>
-      
-      </div>
+    <Header/>
       
       {/* conteúdo */}
       <div className="content-login">
@@ -35,9 +28,7 @@ function Login() {
       </div>
 
       {/* footer */}
-      <div className="footer-component-login">
-        <p>Todos os Direitos Reservados</p>
-      </div>
+     <Footer/>
     </div>
   );
 }

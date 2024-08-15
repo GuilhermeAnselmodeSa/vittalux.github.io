@@ -1,19 +1,16 @@
 import React from 'react';
 import './compras.css';
 import produtoImg from '../../img/produto.png'; // Substitua pelo caminho correto da imagem do produto
-import logo from '../../img/logo.png'
-
+import Footer from '../../components/footer/footer'
+import Header from '../../components/header/header'
 function Compras() {
   return (
     <>
-      <div className="header-component-compras">
-        <img id="logoHome" src={logo} alt="Logo" className="logo-compras" />
-        <button className="btnCadastro-compras">Cadastre-se</button>
-        <button className="btnLogar-compras">Login</button>
-      </div>
+ 
+      {/* cabeçalho */}
+    <Header/>
 
     <div className="container-compras">
-      {/* cabeçalho */}
       {/* Conteúdo */}
       <div className="content-compras">
         <div className="produto-container-compras">
@@ -29,9 +26,7 @@ function Compras() {
       </div>
 
       {/* Footer */}
-      <div className="footer-component-compras">
-        <p>Todos os Direitos Reservados</p>
-      </div>
+         <Footer/>
     </div>
     </>
   );

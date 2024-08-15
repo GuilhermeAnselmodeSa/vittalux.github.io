@@ -1,22 +1,16 @@
 import React from 'react'
 import './index.css';
-import logo from '../../img/logo.png'
 import produto from '../../img/produto.png'
 import { Link, useNavigate } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa';
 import { IoCallSharp } from "react-icons/io5";
-
+import Header from '../../components/header/header'
 
 function Home() {
   return (
     <div className="container">
       {/* cabeçalho */}
-      <div className="header-component-home"> 
-        {/* header->mudar para o verde esmeralda */}
-        <img id="logoHome" src={logo} alt="Logo" className="logo" />
-        <button className="btnCadastro">Cadastre-se</button>
-        <button className="btnLogar">Login</button>
-      </div>
+    <Header/>
 
       {/* conteudo */}
       <div className="content-home">

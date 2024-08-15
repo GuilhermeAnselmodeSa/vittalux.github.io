@@ -13,56 +13,6 @@
 }
 
 
-.header-component-home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  width: 100%;
-  background-color: #053114;
-  position: fixed;
-  z-index: 1000;
-}
-
-.logo {
-  height: 400px;
-  max-width: 100%;
-  position: fixed;
-}
-
-.btnCadastro {
-  border: none;
-  border-radius: 15px;
-  display: flex;
-  margin-left: 80%;
-  background-color: #C0A36E;
-  padding: 0.5%;
-  color: #800020;
-  cursor: pointer;
-}
-
-.btnLogar {
-  border: none;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #C0A36E;
-  padding: 0.5%;
-  margin: 4%;
-  width: 5%;
-  color: #800020;
-  text-align: center;
-  cursor: pointer;
-}
-
-.btnCadastro {
-  background-color: #A8895B;
-}
-
-.btnLogar {
-  background-color: #A8895B;
-}
 
 
 .content-home {
