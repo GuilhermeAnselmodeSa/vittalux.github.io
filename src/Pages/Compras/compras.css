@@ -12,7 +12,6 @@
   min-height: 100vh;
 }
 
-/* Cabeçalho */
 .header-component-compras {
   display: flex;
   justify-content: center;
@@ -51,14 +50,14 @@
   background-color: #C0A36E;
 }
 
-/* Conteúdo */
+
 .content-compras {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
-  padding: 20px 0; /* Adjust padding to reduce space at the top */
+  padding: 20px 0;
   z-index: 500;
 }
 
@@ -123,7 +122,7 @@
   background-color: #d3a123;
 }
 
-/* Footer */
+
 .footer-component-compras {
   display: flex;
   justify-content: center;
@@ -137,12 +136,12 @@
 
 @media (max-width: 480px) {
   .header-component-compras {
-    height: 120px; /* Further reduce the height for mobile */
+    height: 120px; 
   }
 
   .logo-compras {
-    height: 200px; /* Ajusta o tamanho da logo */
-    position: relative; /* Remove o posicionamento fixo */ 
+    height: 200px; 
+    position: relative;
 
   }
 
@@ -180,12 +179,12 @@
 
 @media (max-width: 480px) {
   .header-component-home-compras {
-    height: 120px; /* Reduz a altura do cabeçalho */
+    height: 120px; 
   }
 
   .logo-compras {
-    height: 200px; /* Ajusta o tamanho da logo */
-    position: relative; /* Remove o posicionamento fixo */
+    height: 200px;
+    position: relative;
     padding-left: 5px
   }
 
@@ -193,8 +192,8 @@
     display: grid;
     align-items: center;
     width: 50%;
-    margin: 10px 0; /* Ajusta as margens para centralizar os botões */
-    font-size: 13px; /* Reduz o tamanho da fonte */
+    margin: 10px 0;
+    font-size: 13px;
     padding: 8px;
   
   }
@@ -202,9 +201,9 @@
     display: grid;
     align-items: center;
     width: 50%;
-    margin: 10px 0; /* Ajusta as margens para centralizar os botões */
-    font-size: 13px; /* Reduz o tamanho da fonte */
-    padding: 8px; /* Ajusta o preenchimento */
+    margin: 10px 0;
+    font-size: 13px; 
+    padding: 8px; 
   }
 
   .produto-info-compras h1 {

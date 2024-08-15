@@ -11,14 +11,13 @@
   background-color: #c4c2bf;
 }
 
-/* cabeçalho */
 .header-component-login {
   display: flex;
-  justify-content: center; /* Distribui o espaço entre os elementos */
+  justify-content: center;
   align-items: center;
   height: 150px;
   width: 100%;
-  padding: 0 10px; /* Adiciona padding para dar espaço aos elementos */
+  padding: 0 10px; 
   background-color: #053114;
   position: fixed;
 }
@@ -55,16 +54,15 @@
   cursor: pointer;
 }
 .btnCadastro-login {
-  margin-right: 10px; /* Adiciona espaço entre os botões */
+  margin-right: 10px;
 }
 
-/* conteúdo */
 .content-login {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 180px; /* Ajusta o padding-top para não sobrepor o cabeçalho */
+  padding-top: 180px; 
   height: calc(100vh - 150px);
   width: 100%;
 }
@@ -74,8 +72,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%; /* Aumenta a largura do formulário em dispositivos móveis */
-  max-width: 400px; /* Define uma largura máxima */
+  width: 80%;
+  max-width: 400px; 
   padding: 20px;
   background-color: #053114;
   color: #A8895B;
@@ -111,7 +109,6 @@
   font-size: 16px;
 }
 
-/* footer */
 .footer-component-login {
   display: flex;
   justify-content: center;
@@ -138,15 +135,13 @@
   border: 3px solid #800020;
 }
 
-/* Responsividade */
 @media only screen and (max-width: 480px) {
   .header-component-login {
     height: 120px;
-    /* padding: 0 10px; */
   }
 
   .logo-login {
-    height: 200px; /* Ajusta o tamanho da logo */
+    height: 200px;
     position: relative; 
     }
 
@@ -154,8 +149,8 @@
     display: grid;
     align-items: center;
     width: 50%;
-    margin: 10px 0; /* Ajusta as margens para centralizar os botões */
-    font-size: 13px; /* Reduz o tamanho da fonte */
+    margin: 10px 0; 
+    font-size: 13px;
     padding: 8px; 
    
   }
