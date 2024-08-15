@@ -21,6 +21,7 @@
   width: 100%;
   background-color: #053114;
   position: fixed;
+  z-index: 1000;
 }
 
 .logo {
@@ -87,17 +88,21 @@
   justify-content: baseline;
 }
 
+
 .blocoProduto {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px; /* Adicionei espaço inferior */
+  position: relative; /* Allows positioning the impact text around the image */
+  margin-bottom: 20px;
 }
+
 
 .produto {
   max-width: 100%;
   height: auto;
+  position: relative;
 }
 
 .triggersVendas {
@@ -107,8 +112,7 @@
   width: 100%;
 }
 
-/* recurso para "pulsar" o botao
- */
+  */
 .btnVenda {
   background-color: #d3a123;
   padding: 15px 50px;
@@ -120,7 +124,6 @@
   margin-left: 100%;
 }
 
-
 .footer-component-home {
   display: flex;
   justify-content: center;
@@ -129,6 +132,31 @@
   width: 100%; /* Ajustei a largura */
   background-color: #053114;
   margin-top: 20px; /* Adicionei espaço superior */
+}
+
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.sac-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sac-info p {
+  margin: 0;
+  font-size: 14px;
 }
 
 
@@ -150,6 +178,13 @@
 #btnComprar{
   background-color: #d3a123;
   border: none;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 15px;
+  color: #053114;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 100%;
 
 }
 
@@ -198,7 +233,7 @@
 
   .btnVenda {
     padding: 10px 30px;
-    margin-left: 110px; /* Centraliza o botão */
+    margin-left: -165px; /* Centraliza o botão */
     font-size: 14px; /* Reduz o tamanho da fonte */
   }
 
