@@ -5,26 +5,29 @@ import { Link, useNavigate } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa';
 import { IoCallSharp } from "react-icons/io5";
 import Header from '../../components/header/header'
+import Sidemenu from '../../components/sidemenu/sidemenu'
 
 function Home() {
   return (
     <div className="container">
+      <Sidemenu>
+      </Sidemenu> 
+
       {/* cabeçalho */}
     <Header/>
 
       {/* conteudo */}
       <div className="content-home">
+
+      <h3 id="text1">Nossa fórmula exclusiva combina os melhores ingredientes naturais com a mais alta tecnologia para resultados visíveis e duradouros</h3>
         <div className="blocoProduto">
           <img alt="produto" src={produto} className="produto" />
-
         </div>
 
-        {/* Texto descritivo como legenda */}
-        <div className="quemSomos">
-        <p>Derma Lift Essence redefine os padrões de excelência em cuidados com a pele, incorporando os avanços mais recentes da ciência dermatológica em uma fórmula luxuosa e eficaz. Este hidratante de ultima geração é enriquecido com uma matriz exclusiva de ingredientes ativos e tecnológicos, além de antioxidantes de ponta. Ao nutrir a pele com uma hidratação intensiva e estimular a produção de colágeno e elastina, Derma Lift Essence oferece resultados visíveis: uma pele mais firme, radiante e rejuvenescida. Sinta o poder da inovação com Derma Lift Essence, mais do que apenas um produto; é a excelência em cuidados com a pele, que prioriza a saúde e o bem-estar, resultando em uma beleza radiante que transcende as expectativas.</p>
-        </div>
+       
 
-    
+        <h3 id="text1">Não perca a chance de transformar sua pele. Compre agora e sinta a diferença</h3>
+
           <Link  to='/compras'>
             <button className="btnVenda">QUERO COMPRAR</button>
           </Link>

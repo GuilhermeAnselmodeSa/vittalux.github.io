@@ -4,8 +4,9 @@
     align-items: center;
     height: 150px;
     width: 100%; 
-    background-color: #053114;
+    background-color: #467459;
     margin-top: 20px;
+    z-index: 2000;
   }
 @media only screen and (max-width: 480px) {
     .footer-component-home {

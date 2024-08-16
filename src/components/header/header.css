@@ -5,13 +5,13 @@
     align-items: center;
     height: 150px;
     width: 100%;
-    background-color: #053114;
+    background-color: #467459;
     position: fixed;
     z-index: 1000;
   }
   
   .logo {
-    height: 400px;
+    height: 100px;
     max-width: 100%;
     position: fixed;
   }
@@ -57,7 +57,7 @@
     }
   
     .logo {
-      height: 200px; 
+      height: 80px; 
       position: relative;
     }
   

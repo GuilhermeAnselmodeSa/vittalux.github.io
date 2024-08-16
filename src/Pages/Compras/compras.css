@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+.descricao-compras{
+  width: 100%;
+  font-size: 20px;
+  /* line-height: 1.6; */
+  padding: 20px;
+  background-color: #FFF;
+  color: #A8895B;
+    /* box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5); */
+  margin-top: 20px;
+  
+}
+
 .container-compras {
   display: flex;
   flex-direction: column;
@@ -24,14 +36,8 @@
 }
 
 
-.logo-compras {
-  height: 400px;
-  max-width: 100%;
-  padding-left: 11%;
-}
 
 .btnCadastro-compras, .btnLogar-compras {
-
   border: none;
   border-radius: 15px;
   background-color: #A8895B;
@@ -39,72 +45,82 @@
   color: #800020;
   cursor: pointer;
   margin: 0 10px;
-
 }
 
 .btnCadastro-compras:hover, .btnLogar-compras:hover {
   background-color: #C0A36E;
 }
-
-.btnCadastro-compras:hover, .btnLogar-compras:hover {
-  background-color: #C0A36E;
-}
-
 
 .content-compras {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   height: auto;
   padding: 20px 0;
   z-index: 500;
 }
 
+.quemSomos {
+  width: 60%;
+  font-size: larger;
+  padding: 18px;
+  background-color: #ffffff;
+  color: #A8895B;
+  /* border-radius: 15px; */
+  /* box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5); */
+  margin-bottom: 14px; 
+  margin-top: 14px;
+  justify-content: baseline;
+  width: 70%;
+  font-size: medium; 
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
 .produto-container-compras {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin-top: 150px;
-  max-width: 500px;
+  max-width: 900px;
   width: 100%;
-  text-align: center;
 }
 
 .produto-imagem-compras {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 15px;
+  margin-right: 20px;
 }
 
 .produto-info-compras {
-  margin-top: 20px;
+  width: 50%;
 }
 
 .produto-info-compras h1 {
-  font-size: 24px;
+  font-size: 28px;
   color: #053114;
   margin-bottom: 10px;
 }
 
 .preco-compras {
-  font-size: 20px;
+  font-size: 24px;
   color: #800020;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .preco-parcelado-compras {
-  font-size: 16px;
+  font-size: 18px;
   color: #A8895B;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .frete-compras {
-  font-size: 14px;
+  font-size: 16px;
   color: #053114;
   margin-bottom: 20px;
 }
@@ -113,7 +129,8 @@
   border: none;
   border-radius: 15px;
   background-color: #007bff;
-  padding: 10px 20px;
+  padding: 15px 30px;
+  font-size: 18px;
   color: #fff;
   cursor: pointer;
 }
@@ -121,7 +138,6 @@
 .btnComprar-compras:hover {
   background-color: #d3a123;
 }
-
 
 .footer-component-compras {
   display: flex;
@@ -134,15 +150,25 @@
   margin-top: auto;
 }
 
+.quemSomos {
+  width: 100%;
+  font-size: 18px;
+  /* line-height: 1.6; */
+  padding: 20px;
+  background-color: #FFF;
+  color: #A8895B;
+    /* box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5); */
+  margin-top: 20px;
+}
+
 @media (max-width: 480px) {
   .header-component-compras {
-    height: 120px; 
+    height: 120px;
   }
 
   .logo-compras {
-    height: 200px; 
+    height: 200px;
     position: relative;
-
   }
 
   .btnCadastro-compras, .btnLogar-compras {
@@ -152,12 +178,33 @@
   }
 
   .produto-container-compras {
+    flex-direction: column;
     width: 300px;
     padding: 10px;
   }
 
+  .produto-imagem-compras {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .produto-info-compras {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .descricao-compras{
+    width: 100%;
+    font-size: 20px;
+    /* line-height: 1.6; */
+    padding: 20px;
+    background-color: #FFF;
+    color: #A8895B;
+      /* box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5); */
+    margin-top: 20px;
+  }
+
   .produto-info-compras h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .preco-compras {
@@ -173,59 +220,13 @@
   }
 
   .btnComprar-compras {
-    padding: 8px 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .header-component-home-compras {
-    height: 120px; 
-  }
-
-  .logo-compras {
-    height: 200px;
-    position: relative;
-    padding-left: 5px
-  }
-
-  .btnCadastro-compras,.btnLogar-compras{
+    padding: 10px 20px;
+    font-size: 16px;
     display: grid;
     align-items: center;
-    width: 50%;
-    margin: 10px 0;
-    font-size: 13px;
-    padding: 8px;
-  
-  }
-  .btnLogar-compras {
-    display: grid;
-    align-items: center;
-    width: 50%;
-    margin: 10px 0;
-    font-size: 13px; 
-    padding: 8px; 
   }
 
-  .produto-info-compras h1 {
-    font-size: 13px;
-  }
-  .produto-container-compras{
-    height: 350px;
-    width: 250px;
-  }
-  .preco-compras {
-    font-size: 13px;
-  }
-
-  .preco-parcelado-compras {
-    font-size: 12px;
-  }
-
-  .frete-compras {
-    font-size: 12px;
-  }
-
-  .btnComprar-compras {
-    padding: 8px 12px;
+  .quemSomos {
+    font-size: 16px;
   }
 }
