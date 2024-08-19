@@ -3,13 +3,15 @@ import './compras.css';
 import produtoImg from '../../img/produto.png'; // Substitua pelo caminho correto da imagem do produto
 import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
+import Sidemenu from '../../components/sidemenu/sidemenu'
 
 function Compras() {
   return (
     <>
       {/* cabeçalho */}
       <Header/>
-
+      <Sidemenu>
+      </Sidemenu>
       <div className="container-compras">
         {/* Conteúdo */}
         <div className="content-compras">
