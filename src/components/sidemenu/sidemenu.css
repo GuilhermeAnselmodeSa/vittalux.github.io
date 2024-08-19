@@ -50,6 +50,19 @@
   .toggle-button:hover {
     background-color: #575757;
   }
+
+  /* BOTOES DE LOGAR E CADASTRAR */
+
+  .btnCadastroMenu {
+    background-color: #A8895B;
+    display: none;
+
+  }
+  
+  .btnLogarMenu {
+    background-color: #A8895B;
+    display: none;
+  }
   @media only screen and (max-width: 480px) {
     .sidebar {
       position: fixed;
@@ -59,7 +72,7 @@
       margin-top: 30%;
       height: 100%;
       background-color: #467459;
-      color: #333;;
+      color: #333;
       transition: left 0.3s ease;
       z-index: 2000;
       border-collapse: collapse;
@@ -102,5 +115,22 @@
     
     .toggle-button:hover {
       background-color: #575757;
+    }
+    /* bts */
+    .btnCadastroMenu, .btnLogarMenu {
+
+      display: grid;
+      align-items: center;
+      width: 35%;
+      margin: 10px 0; 
+      font-size: 13px; 
+      padding: 8px; 
+      margin-left: 10px;
+      border-radius: 5px;
+      border: none;
+     
+    }
+    .btnMenu{
+      padding-top:270px;
     }
   }
