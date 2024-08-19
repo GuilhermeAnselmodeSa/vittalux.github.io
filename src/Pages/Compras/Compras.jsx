@@ -24,7 +24,18 @@ function Compras() {
               <button className="btnComprar-compras">Comprar</button>
 
               <div className="quemSomos">
-                <p>Derma Lift Essence redefine os padrões de excelência em cuidados com a pele, incorporando os avanços mais recentes da ciência dermatológica em uma fórmula luxuosa e eficaz. Este hidratante de ultima geração é enriquecido com uma matriz exclusiva de ingredientes ativos e tecnológicos, além de antioxidantes de ponta. Ao nutrir a pele com uma hidratação intensiva e estimular a produção de colágeno e elastina, Derma Lift Essence oferece resultados visíveis: uma pele mais firme, radiante e rejuvenescida. Sinta o poder da inovação com Derma Lift Essence, mais do que apenas um produto; é a excelência em cuidados com a pele, que prioriza a saúde e o bem-estar, resultando em uma beleza radiante que transcende as expectativas.</p>
+                <p>Derma Lift Essence é um hidratante avançado que utiliza ciência dermatológica para oferecer hidratação intensiva, preenchimento de linhas finas e promover uma pele mais firme e radiante.
+                </p>
+                <br/>
+               <p>• Acalma e nutre</p>
+               <p>• Regenera e preenche linhas e cicatrizes </p>
+               <p>• Promove efeito lifting ( sensação instantâneo) </p>
+               <p>• Fórmula leve e não oleosa </p>
+               <p>• Previne e trata linhas de expressão</p>  
+            
+               
+              
+               
               </div>
               
               {/* <div className="descricao-compras">

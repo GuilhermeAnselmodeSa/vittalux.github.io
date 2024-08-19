@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './sidemenu.css';
 import { MdLogin } from "react-icons/md";
 import { HiMiniPencilSquare } from "react-icons/hi2";
+import { Link } from 'react-router-dom';
+
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,10 +17,14 @@ const Sidebar = () => {
         {isOpen ? '⮜' : '⮞'}
       </div>
       <ul>
-  
+      <Link id="linkMenu" to="/">
         <li>O produto</li>
+        </Link>
         <li>Quem somos?</li>
-        <li>...</li>
+        <Link id="linkMenu" to="/sac">
+           <li>SAC</li>
+        </Link>
+
         <li>...</li>
       </ul>
       <div className="btnMenu">
