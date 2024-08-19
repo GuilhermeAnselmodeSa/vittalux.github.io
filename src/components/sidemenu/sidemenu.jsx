@@ -25,12 +25,11 @@ const Sidebar = () => {
            <li>SAC</li>
         </Link>
 
-        <li>...</li>
-      </ul>
       <div className="btnMenu">
       <button className="btnCadastroMenu">Cadastre-se</button>
       <button className="btnLogarMenu"><MdLogin /></button>
       </div>
+          </ul>
 
     </div>
   );
