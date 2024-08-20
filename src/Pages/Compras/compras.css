@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .descricao-compras{
   width: 100%;
   font-size: 20px;
@@ -80,7 +81,8 @@
 
 .produto-container-compras {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column; /* Altera para coluna */
+  align-items: center;
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
@@ -90,16 +92,22 @@
   width: 100%;
 }
 
+.produto-info-compras {
+  width: 100%;
+  margin-top: 20px;
+}
+.valores{
+  display: grid;
+  align-items: center;
+}
 .produto-imagem-compras {
   width: 50%;
-  height: auto;
+    height: auto;
   border-radius: 15px;
-  margin-right: 20px;
+  margin-right: 200px;
 }
 
-.produto-info-compras {
-  width: 50%;
-}
+
 
 .produto-info-compras h1 {
   font-size: 28px;
@@ -160,11 +168,50 @@
     /* box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5); */
   margin-top: 20px;
 }
+/* fac */
+.faq-section {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+  margin-top: 20px;
+  width: 80%; /* Adjust the width to occupy more space */
+  margin: 0 auto; /* Center the FAQ section */
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  border: none;
+}
+
+.faq-question {
+  font-size: 18px;
+  color: #053114;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  border: none;
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #800020;
+  padding: 10px;
+  background-color: #ffffff;
+  border: none;
+}
+
+/* Mobile responsiveness */
 @media (max-width: 480px) {
-  .header-component-compras {
-    height: 120px;
+  .faq-section {
+    width: 100%; /* Make sure the FAQ section takes up full width on mobile */
   }
+  
+  .faq-question, .faq-answer {
+    padding: 8px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
 
   .logo-compras {
     height: 200px;
@@ -178,15 +225,15 @@
   }
 
   .produto-container-compras {
-    flex-direction: column;
-    width: 300px;
-    padding: 10px;
+    flex-direction: column; /* Mantém a FAQ abaixo das informações principais */
   }
 
-  .produto-imagem-compras {
-    width: 100%;
-    margin-right: 0;
+  .produto-imagem-compras,
+  .produto-info-compras {
+    width: 100%; /* Mantém ambos ocupando toda a largura */
+    margin-bottom: 20px; /* Espaçamento entre a imagem e as informações do produto */
   }
+
 
   .produto-info-compras {
     width: 100%;

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 
+
 }
 
 
@@ -30,13 +31,13 @@
 
 
 .content-home {
-  overflow-y: auto; 
   display: grid;
   grid-template-columns: 1fr; 
   align-items: center;
   padding-top: 150px;
   width: 100%;
-  height: calc(100vh - 150px);
+  row-gap: 10px;
+  /* height: calc(300vh - 350px); */
 }
 
 
@@ -139,6 +140,81 @@
   font-size: 16px;
   margin-left: 100%;
 
+}
+
+.email-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  /* background-color: #f5f5f5; Fundo suave  */
+  /* border-radius: 10px; Bordas arredondadas */
+  border: none;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); Sombra sutil */
+}
+
+.email-label {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.input-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px; /* Bordas arredondadas apenas no início */
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.email-input:focus {
+  border-color: #467459; /* Cor ao focar */
+}
+
+.email-submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #467459; /* Cor do botão */
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0; /* Bordas arredondadas apenas no final */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.email-submit-button:hover {
+  background-color: #365a43; /* Cor ao passar o mouse */
+}
+
+.email-submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70, 116, 89, 0.5); /* Sombra ao focar */
+}
+
+
+.titulo-sobre{
+  width: 40%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: inherit;
+  text-align: center;
+}
+.sobre-nos{
+  width: 40%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: inherit;
+  text-align: justify;
 }
 
 @media only screen and (max-width: 480px) {

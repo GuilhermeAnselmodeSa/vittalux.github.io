@@ -34,17 +34,40 @@ function Home() {
             <button className="btnVenda">QUERO COMPRAR</button>
           </Link>
 
-   
+        <div className="receba-novidades">
+          <br/>
+          <br/>
+          <br/>
+          <h1>Receba Novidades e Agilize Suas Compras</h1>
+          <div className="email-input-container">
+            <label htmlFor="email" className="email-label">E-mail</label>
+            <div className="input-wrapper">
+              <input type="email" id="email" placeholder="Enter your email" className="email-input" />
+              <button className="email-submit-button">Cadastre-se</button>
+            </div>
+          </div>
+        </div>
+        <div className="titulo-sobre">
+          <h3>Sobre Nós</h3>
+        </div>
+        <div className="sobre-nos">
+          <p>
+          Na VittaLux, somos apaixonados por revelar a beleza que reside em cada pessoa através de cuidados dermocosméticos de excelência.</p>
+          <p> Nossa missão é proporcionar soluções inovadoras e eficazes, unindo ciência e natureza para transformar o cuidado com a pele em uma experiência única e revitalizante.</p>
+
+          <p>Cada produto da VittaLux é desenvolvido com composições de alta qualidade, combinando tecnologia de ponta e conhecimento dermatológico para atender às necessidades específicas de cada tipo de pele. Nosso compromisso é com a saúde, a beleza e o bem-estar dos nossos clientes, oferecendo fórmulas seguras e eficazes que promovem resultados visíveis e duradouros.</p>
+
+          <p>Acreditamos que a verdadeira beleza vem do cuidado. Por isso, estamos dedicados a criar produtos que não apenas realçam a sua aparência, mas também cuidam da sua pele de forma profunda e gentil. Na VittaLux, estamos aqui para iluminar sua jornada para uma pele saudável e radiante.
+
+          </p>
+
+          <h4>VittaLux, onde a Beleza encontra cuidado.</h4>
+        </div>
       </div>
       <Footer>
         
         </Footer>
       </div>
-      
-
-   
-
-   
   )
 }
 

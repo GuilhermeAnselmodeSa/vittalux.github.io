@@ -18,7 +18,7 @@ const Sidebar = () => {
       </div>
       <ul>
       <Link id="linkMenu" to="/">
-        <li>O produto</li>
+        <li>Produtos</li>
         </Link>
         <li>Quem somos?</li>
         <Link id="linkMenu" to="/sac">

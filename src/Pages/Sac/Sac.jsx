@@ -36,7 +36,7 @@ function Home() {
        
        
 
-        <h5 id="text1">Nosso objetivo é atender nossos clientes com a maior qualidade do mercado</h5>
+        <h5 id="text1">Nosso objetivo é atender nossos clientes de forma rápida e humanizada, garantindo a personalização de seu atendimento</h5>
 
 
       </div>
