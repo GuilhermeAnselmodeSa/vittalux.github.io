@@ -64,4 +64,41 @@
       flex-direction: column;
       gap: 10px; /* Ajusta o espaçamento para telas menores */
   }
+  
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ocupa toda a largura disponível */
+}
+
+
+.footer-icon {
+  font-size: 30px;
+  margin-right: 20px; /* Espaço entre os ícones sociais */
+}
+
+.sac-info {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espaçamento entre os itens de SAC e pagamento */
+}
+
+.sac-info p {
+  margin: 0;
+  font-size: 18px;
+}
+
+#company-info {
+  text-align: center;
+  font-size: 16px;
+  margin-left: 290px;
+  line-height: 1.5;
+}
+
+#directResponse {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
 }
