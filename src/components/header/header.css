@@ -63,6 +63,8 @@
     .logo {
       height: 80px; 
       position: relative;
+      display: grid;
+      align-items: center;
     }
   
     .btnCadastro, .btnLogar {
