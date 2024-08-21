@@ -5,7 +5,7 @@ function btnComprar() {
   return (
     <div>
         <Link to="/compras" className="compraja-button">
-            Compre Já
+           <a href="">Compre Já</a> 
         </Link>
     </div>
   )

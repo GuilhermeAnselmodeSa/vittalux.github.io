@@ -7,6 +7,7 @@ import { IoCallSharp } from "react-icons/io5";
 import { MdMailOutline } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import Footer from '../../components/footer/footer'
+import BtnComprar from '../../components/buttonCompre/btnComprar';
 
 import Header from '../../components/header/header'
 import Sidemenu from '../../components/sidemenu/sidemenu'
@@ -22,7 +23,7 @@ function Home() {
 
       {/* conteudo */}
       <div className="content-home">
-
+      <BtnComprar /> 
       <h3 id="text-sac">Qualquer dúvida com nossos produtos, basta entrar em contato via SAC:</h3>
       <a href="https://www.instagram.com/vittalux.com.br?igsh=MTJweWR6eTA3N3Q5Zw==" target="_blank" rel="noopener noreferrer">
       <p id='instaSac'> <FaInstagram className="footer-icon" />Instagram</p>
@@ -40,8 +41,10 @@ function Home() {
 
 
       </div>
+<div className="footerSac">
 
 <Footer></Footer>
+</div>
       </div>
   
   )

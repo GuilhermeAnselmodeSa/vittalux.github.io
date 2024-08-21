@@ -42,6 +42,11 @@
     color: #333;
   }
   
+  .footerSac{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+  }
   @media (max-width: 480px) {
     .texto-sac h3 {
       font-size: 16px;

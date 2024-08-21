@@ -45,7 +45,22 @@
     text-align: center;
     cursor: pointer;
   }
-  
+  .btnCart{
+
+      border: none;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #C0A36E;
+      padding: 0.5%;
+      margin: 4%;
+      width: 5%;
+      color: #800020;
+      text-align: center;
+      cursor: pointer;
+    
+  }
   .btnCadastro {
     background-color: #A8895B;
   }

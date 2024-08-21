@@ -1,21 +1,25 @@
 .compraja-button {
-    position: fixed;
-    bottom: 20px; /* Distância do botão em relação ao fundo da tela */
-    right: 20px;  /* Distância do botão em relação ao lado direito da tela */
-    background-color: #ff6f61;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-    z-index: 5000; /* Garante que o botão fique acima de outros elementos */
-  }
-  
-  .compraja-button:hover {
-    background-color: #ff8a75;
-  }
-  
+  position: fixed;
+  bottom: 20px; /* Distância do botão em relação ao fundo da tela */
+  right: 20px;  /* Distância do botão em relação ao lado direito da tela */
+  background-color: #ff6f61;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  z-index: 5000; /* Garante que o botão fique acima de outros elementos */
+  text-decoration: none;
+}
+
+.compraja-button a {
+  color: white; /* Remove a cor azul do texto */
+  text-decoration: none; /* Remove o sublinhado do link */
+} 
+.compraja-button:hover {
+  background-color: #ff8a75;
+}
