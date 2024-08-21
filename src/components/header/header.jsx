@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className="header-component-home"> 
     {/* header->mudar para o verde esmeralda */}
-    <img id="logoHome" src={logo} alt="Logo" className="logo" />
+    <img src={logo} alt="Logo" className="logo" />
     <div className="btns">
       
     </div>

@@ -1,6 +1,6 @@
 .footer-component-css {
   display: flex;
-  justify-content: space-between; /* Espaça os itens para as extremidades */
+  flex-direction: column;
   align-items: center;
   padding: 20px 40px; /* Adiciona espaçamento interno */
   background-color: #467459;
@@ -8,17 +8,15 @@
   margin-top: 100px;
   font-size: 18px;
   width: 100%;
-  /* position: fixed; Fixa o footer na tela */
-  /* bottom: 0; Fixa na parte inferior */
 }
 
 .footer-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Ocupa toda a largura disponível */
+  width: 100%;
+  max-width: 1200px; /* Ajusta a largura máxima do container */
 }
-
 
 .footer-icon {
   font-size: 30px;
@@ -27,6 +25,7 @@
 
 .sac-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 20px; /* Espaçamento entre os itens de SAC e pagamento */
 }
@@ -39,7 +38,6 @@
 #company-info {
   text-align: center;
   font-size: 16px;
-  margin-left: 290px;
   line-height: 1.5;
 }
 
@@ -47,58 +45,33 @@
   text-align: center;
   font-size: 14px;
   margin-top: 10px;
+}
+.iconesBancos{
+  gap: 10px;
 }
 
 @media only screen and (max-width: 480px) {
   .footer-component-css {
-      flex-direction: column;
-      text-align: center;
-      padding: 20px;
+    padding: 20px;
+    text-align: center;
+     /* position: fixed;
+   bottom: 0;  */
   }
 
   .footer-icons {
-      flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-icon {
+    margin: 10px; /* Ajusta o espaçamento dos ícones para telas menores */
   }
 
   .sac-info {
-      flex-direction: column;
-      gap: 10px; /* Ajusta o espaçamento para telas menores */
+    gap: 10px; /* Ajusta o espaçamento para telas menores */
   }
-  
-.footer-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%; /* Ocupa toda a largura disponível */
-}
 
-
-.footer-icon {
-  font-size: 30px;
-  margin-right: 20px; /* Espaço entre os ícones sociais */
-}
-
-.sac-info {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Espaçamento entre os itens de SAC e pagamento */
-}
-
-.sac-info p {
-  margin: 0;
-  font-size: 18px;
-}
-
-#company-info {
-  text-align: center;
-  font-size: 16px;
-  margin-left: 290px;
-  line-height: 1.5;
-}
-
-#directResponse {
-  text-align: center;
-  font-size: 14px;
-  margin-top: 10px;
-}
+  #company-info {
+    font-size: 14px; /* Ajusta o tamanho da fonte para telas menores */
+  }
 }

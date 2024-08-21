@@ -32,9 +32,12 @@ function Footer() {
           <div className="icons">
             
           </div>
+          <div className="iconesBancos">
           <RiVisaFill />
           <FaCcMastercard />
           <MdPix />
+          </div>
+        
         </div>
       </div>
    

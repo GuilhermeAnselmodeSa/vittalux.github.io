@@ -56,6 +56,9 @@
 
   @media only screen and (max-width: 480px) {
 
+    .btns{
+      display: none;
+    }
     .header-component-home {
       height: 120px;
     }
