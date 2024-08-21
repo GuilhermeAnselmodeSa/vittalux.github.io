@@ -273,7 +273,7 @@
 
   #text1 {
     font-family: 'Playfair Display', serif; /* Fonte elegante */
-    font-size: 1.3rem; /* Tamanho maior da fonte */
+    font-size: 1.2rem; /* Tamanho maior da fonte */
     font-weight: 700; /* Peso da fonte para deixá-la mais destacada */
     color: #333; /* Cor do texto */
     line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
@@ -282,6 +282,8 @@
   }
   .sobre-nos{
     width: 70%;
+    font-size: 15px;
+
   }
   
   /* Adiciona um fallback no caso da fonte principal não carregar */
