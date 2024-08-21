@@ -273,7 +273,7 @@ body {
 
   #text1 {
     font-family: 'Playfair Display', serif; /* Fonte elegante */
-    font-size: 1.2rem; /* Tamanho maior da fonte */
+    font-size: 1.0rem; /* Tamanho maior da fonte */
     font-weight: 700; /* Peso da fonte para deixá-la mais destacada */
     color: #333; /* Cor do texto */
     line-height: 1.5; /* Altura da linha para melhorar a legibilidade */

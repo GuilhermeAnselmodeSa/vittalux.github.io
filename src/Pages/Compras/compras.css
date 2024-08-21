@@ -3,8 +3,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* CSS BOTAO DE + E - */
+.quantity-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ddd; /* Ajuste a cor da borda conforme necessário */
+  border-radius: 8px;
+  overflow: hidden; /* Garante que o conteúdo não vaze para fora do contêiner */
+  background-color: #f8f8f8; /* Fundo levemente acinzentado */
+  width: fit-content;
+}
 
+.quantity-block input {
+  width: 50px; /* Largura do campo de entrada */
+  text-align: center; /* Centraliza o texto no campo de entrada */
+  border: none; /* Remove a borda padrão do input */
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fff; /* Cor de fundo do input */
+  color: #333; /* Cor do texto no input */
+}
 
+.quantity-block button {
+  width: 40px; /* Largura dos botões */
+  height: 40px; /* Altura dos botões */
+  background-color: #ff6f61; /* Cor de fundo dos botões */
+  color: #fff; /* Cor do texto dos botões */
+  font-size: 18px; /* Tamanho da fonte dos botões */
+  border: none; /* Remove a borda dos botões */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-block button:hover {
+  background-color: #ff8a75; /* Cor de fundo ao passar o mouse */
+}
+
+.quantity-block button:active {
+  background-color: #e65c50; /* Cor de fundo ao clicar */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .quantity-block input {
+    width: 40px;
+    font-size: 14px;
+  }
+
+  .quantity-block button {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quantity-block {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .quantity-block button {
+    width: 100%;
+    border-radius: 0; /* Remove bordas arredondadas para melhor alinhamento */
+  }
+
+  .quantity-block input {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+/* css GERAL */
 .descricao-compras{
   width: 100%;
   font-size: 20px;

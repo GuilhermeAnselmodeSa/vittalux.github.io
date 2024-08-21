@@ -75,11 +75,11 @@ function Compras() {
               <p className="preco-parcelado-compras">ou R$ 130,00 em 10x de R$ 13,00 sem juros</p>
               <p className="frete-compras">Frete grátis</p>
 
-              {/* <div className="quantity-block">
+              <div className="quantity-block">
                 <button className="decrement-btn" onClick={decrementQuantity}>-</button>
                 <input type="text" value={quantity} readOnly />
                 <button className="increment-btn" onClick={incrementQuantity}>+</button>
-              </div> */}
+              </div>
 
               <button className="btnComprar-compras">Comprar</button>
       </div>
