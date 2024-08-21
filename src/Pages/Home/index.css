@@ -6,6 +6,13 @@
 
 }
 
+body {
+  background-image: url('../../assets/wallpaper.jpeg');
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-attachment: fixed; /* Fixa a imagem de fundo, para não rolar com a página */
+}
 
 #text1 {
   font-family: 'Playfair Display', serif; /* Fonte elegante */
@@ -37,7 +44,10 @@
   padding-top: 150px;
   width: 100%;
   row-gap: 10px;
-  /* height: calc(300vh - 350px); */
+  background-image: url('../../assets/wallpaper.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 

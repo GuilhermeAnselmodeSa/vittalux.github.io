@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header/header';
 import Sidemenu from '../../components/sidemenu/sidemenu';
 import Footer from '../../components/footer/footer';
+import btnComprar from '../../components/buttonCompre/btnComprar';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <div className="blocoProduto">
           <img alt="produto" src={produto} className="produto" />
         </div>
+      <btnComprar/>
 
         <h3 id="text1">Rejuvenescimento visível e firmeza imediata em cada aplicação!</h3>
 
