@@ -6,10 +6,12 @@ import Header from '../../components/header/header';
 import Sidemenu from '../../components/sidemenu/sidemenu';
 import Footer from '../../components/footer/footer';
 import BtnComprar from '../../components/buttonCompre/btnComprar';
+import Banner from '../../components/banner/banner';
 
 function Home() {
   return (
     <div className="container">
+            <Banner/> 
       <Sidemenu />
       <Header />
       <div className="content-home">
