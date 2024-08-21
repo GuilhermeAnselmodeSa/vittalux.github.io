@@ -15,7 +15,7 @@ body {
 }
 
 #text1 {
-  font-family: 'Playfair Display', serif; /* Fonte elegante */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fonte elegante */
   font-size: 2rem; /* Tamanho maior da fonte */
   font-weight: 700; /* Peso da fonte para deixá-la mais destacada */
   color: #333; /* Cor do texto */

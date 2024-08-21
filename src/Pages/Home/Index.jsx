@@ -32,7 +32,7 @@ function Home() {
             <label htmlFor="email" className="email-label">E-mail</label>
             <div className="input-wrapper">
               <input type="email" id="email" placeholder="Enter your email" className="email-input" />
-              <button className="email-submit-button">Cadastre-se</button>
+              <button className="email-submit-button">Receba as Novidades!</button>
             </div>
           </div>
         </div>

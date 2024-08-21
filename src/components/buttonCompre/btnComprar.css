@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 20px; /* Distância do botão em relação ao fundo da tela */
   right: 20px;  /* Distância do botão em relação ao lado direito da tela */
-  background-color: #ff6f61;
+  background-color: #000;
   color: white;
   padding: 15px 30px;
   border-radius: 50px;

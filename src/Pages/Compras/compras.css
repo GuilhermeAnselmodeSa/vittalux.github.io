@@ -129,6 +129,7 @@
 }
 
 .quemSomos {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width: 60%;
   font-size: larger;
   padding: 18px;
@@ -147,6 +148,7 @@
 
 .produto-container-compras {
   display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   flex-direction: column; /* Altera para coluna */
   align-items: center;
   background-color: #ffffff;
