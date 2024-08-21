@@ -3,7 +3,7 @@
     top: 0;
     left: -250px; /* Deixa uma parte do sidebar visível */
     width: 250px;
-    margin-top: 7.9%;
+    margin-top: 7.2%;
     height: 110%;
     background-color: #467459;
     color: #333;;
@@ -69,6 +69,17 @@
     text-decoration: none;
     color:#053114;
   }
+
+  
+  #linkConta{
+    border-radius: 4px;
+    text-decoration: none;
+    color:#053114;
+    font-size: 20px;
+    display: grid;
+    align-items: center;
+  }
+  
   @media only screen and (max-width: 480px) {
     .sidebar {
       position: fixed;

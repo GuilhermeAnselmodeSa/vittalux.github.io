@@ -280,6 +280,9 @@
     text-align: center; /* Centraliza o texto */
     margin: 20px 0; /* Espaçamento ao redor do texto */
   }
+  .sobre-nos{
+    width: 70%;
+  }
   
   /* Adiciona um fallback no caso da fonte principal não carregar */
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
