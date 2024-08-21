@@ -290,7 +290,9 @@ body {
     font-size: 15px;
 
   }
-  
+  .active-text{
+    width: 50%;
+  }
   /* Adiciona um fallback no caso da fonte principal não carregar */
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
   

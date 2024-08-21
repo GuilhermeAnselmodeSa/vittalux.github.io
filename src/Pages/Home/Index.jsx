@@ -27,7 +27,10 @@ function Home() {
         </Link>
 
         <div className="receba-novidades">
+          <div className="active-text">
+
           <h1>Receba Novidades e Agilize Suas Compras</h1>
+          </div>
           <div className="email-input-container">
             <label htmlFor="email" className="email-label">E-mail</label>
             <div className="input-wrapper">
