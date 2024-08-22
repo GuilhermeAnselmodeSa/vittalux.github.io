@@ -4,7 +4,8 @@ import { MdLogin } from "react-icons/md";
 import { HiMiniPencilSquare } from "react-icons/hi2";
 import { Link } from 'react-router-dom';
 import { FaRegUserCircle } from "react-icons/fa";
-
+import { MdOutlineShoppingCart } from "react-icons/md";
+  
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,9 @@ const Sidebar = () => {
       <ul>
       <Link id="linkConta" to="/">
         <li id="linkConta"><FaRegUserCircle />Minha Conta</li>
+        </Link>
+        <Link id="linkConta" to="/">
+        <li id="linkConta"><MdOutlineShoppingCart />Minhas Compras</li>
         </Link>
       <Link id="linkMenu" to="/">
         <li>Produtos</li>

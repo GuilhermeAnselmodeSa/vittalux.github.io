@@ -61,6 +61,7 @@
 
 @media only screen and (max-width: 480px) {
   .footer-component-css {
+    position: relative;
     padding: 20px;
     text-align: center;
   }
