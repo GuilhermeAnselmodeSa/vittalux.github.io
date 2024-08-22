@@ -40,7 +40,7 @@ function Home() {
             <FaLock className="sac-icon" />
             <div>
               <h4>COMPRA SEGURA</h4>
-              <p>Pagamentos processados diretamente pela Rede, Mercado Pago e PagSeguro</p>
+              <p>Pagamentos processados diretamente pela GetLink</p>
             </div>
           </div>
           <div className="sac-info-item">

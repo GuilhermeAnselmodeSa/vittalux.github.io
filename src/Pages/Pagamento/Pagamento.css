@@ -1,0 +1,107 @@
+.container-pagamento {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: transparent;
+    padding-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .pagamento-content {
+    
+
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pagamento-content h1 {
+    color: #467459;
+    margin-bottom: 20px;
+  }
+  
+  .payment-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .payment-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #467459;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button.active {
+    background-color: #467459;
+    color: #fff;
+  }
+  
+  .payment-button:hover {
+    background-color: #365a43;
+    color: #fff;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  .payment-form label {
+    font-size: 14px;
+    color: #467459;
+    margin-bottom: 5px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .payment-form input:focus {
+    border-color: #467459;
+  }
+  
+  .pix-qr-code {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .generate-boleto-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .generate-boleto-button:hover {
+    background-color: #365a43;
+  }
+  
