@@ -17,6 +17,6 @@
 
 @media only screen and (max-width: 480px) {
     .carousel-container {
-        max-width: 100%;
+        max-width: 70%;
     }
 }
