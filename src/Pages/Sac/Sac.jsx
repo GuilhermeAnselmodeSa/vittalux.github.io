@@ -18,7 +18,10 @@ function Home() {
 
       <div className="content-home">
         <BtnComprar /> 
-        <h3 id="text-sac">Qualquer dúvida com nossos produtos, basta entrar em contato via SAC:</h3>
+        <div className="title-sac">
+
+         <h3 id="text-sac">Qualquer dúvida com nossos produtos, basta entrar em contato via SAC:</h3>
+        </div>
 
         <div className="sac-contact">
           <a href="https://www.instagram.com/vittalux.com.br?igsh=MTJweWR6eTA3N3Q5Zw==" target="_blank" rel="noopener noreferrer">
