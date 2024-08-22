@@ -1,0 +1,22 @@
+.carousel-container {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#imgCarrossel{
+    width: 50px;
+    height: 40px;
+}
+
+ .legend {
+    background: #d3a123;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-container {
+        max-width: 100%;
+    }
+}

@@ -1,10 +1,8 @@
 import React from 'react';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaCcVisa, FaCcMastercard, FaCcAmex, FaCcDiscover, FaCcDinersClub, FaLock, FaGoogle } from 'react-icons/fa';
 import { IoCallSharp } from "react-icons/io5";
 import { RiVisaFill } from "react-icons/ri";
-import { FaCcMastercard } from "react-icons/fa";
-import { MdPix } from "react-icons/md";
-import { FaFacebook } from "react-icons/fa";
+import { MdPix, MdSecurity } from "react-icons/md";
 import './footer.css';
 
 function Footer() {
@@ -29,18 +27,39 @@ function Footer() {
         <div className="sac-info">
           <IoCallSharp />
           <p>+55 15 99171-3753</p>
-          <div className="icons">
-            
-          </div>
-          <div className="iconesBancos">
-          <RiVisaFill />
-          <FaCcMastercard />
-          <MdPix />
-          </div>
-        
+          {/* <div className="payment-icons">
+            <FaCcVisa />
+            <FaCcMastercard />
+            <FaCcAmex />
+            <FaCcDinersClub />
+            <FaCcDiscover />
+            <MdPix />
+          </div> */}
         </div>
       </div>
-   
+
+      <div className="security-section">
+        <div className="payment-security">
+          <p>Formas de Pagamento</p>
+          <div className="payment-methods">
+            <FaCcVisa />
+            <FaCcMastercard />
+            <FaCcAmex />
+            <FaCcDinersClub />
+            <FaCcDiscover />
+            <MdPix />
+            {/* Add other payment icons here */}
+          </div>
+        </div>
+        <div className="site-security">
+          <p>Loja Segura</p>
+          <div className="security-icons">
+            <FaLock />
+            <MdSecurity />
+            <FaGoogle />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

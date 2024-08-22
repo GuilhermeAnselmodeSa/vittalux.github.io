@@ -60,13 +60,15 @@
 
 @media (max-width: 480px) {
   .quantity-block {
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    width: 30%;
+    height: 70%;
+    border: none;
   }
 
   .quantity-block button {
-    width: 70%;
-    border-radius: 3px; /* Remove bordas arredondadas para melhor alinhamento */
+    width: 100%;
+    border-radius: 3px; 
   }
 
   .quantity-block input {

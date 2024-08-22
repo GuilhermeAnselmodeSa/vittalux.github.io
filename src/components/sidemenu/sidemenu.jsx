@@ -31,8 +31,8 @@ const Sidebar = () => {
         </Link>
 
       <div className="btnMenu">
-      <button className="btnCadastroMenu">Cadastre-se</button>
-      <button className="btnLogarMenu"><MdLogin /></button>
+      {/* <button className="btnCadastroMenu">Cadastre-se</button>
+      <button className="btnLogarMenu"><MdLogin /></button> */}
       </div>
           </ul>
 

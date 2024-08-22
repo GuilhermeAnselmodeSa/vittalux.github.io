@@ -4,7 +4,7 @@ function banner() {
   return (
     <div>
         <div className="frete-banner">
-      Frete Grátis a partir de 999,999
+      Entregamos para TODO BRASIL
     </div>
     </div>
   )

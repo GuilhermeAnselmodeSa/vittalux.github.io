@@ -7,7 +7,7 @@ import Sidemenu from '../../components/sidemenu/sidemenu';
 import Footer from '../../components/footer/footer';
 import BtnComprar from '../../components/buttonCompre/btnComprar';
 import Banner from '../../components/banner/banner';
-
+import Carrossel from '../../components/carrossel/carrossel';
 function Home() {
   return (
     <div className="container">
@@ -27,11 +27,11 @@ function Home() {
         <Link to="/compras">
           <button className="btnVenda">QUERO COMPRAR</button>
         </Link>
-
+        <Carrossel /> 
         <div className="receba-novidades">
           <div className="active-text">
 
-          <h1>Receba Novidades e Agilize Suas Compras</h1>
+          <h1>Receba Novidades e Ofertas Exclusivas!</h1>
           </div>
           <div className="email-input-container">
             <label htmlFor="email" className="email-label">E-mail</label>

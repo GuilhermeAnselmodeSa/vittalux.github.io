@@ -70,9 +70,9 @@ function Compras() {
             
             <div className="produto-info-compras">
             <div className="valores">
-              <h1>Creme VittaLux Dermalift Essence</h1>
-              <p className="preco-compras">R$ 62,15 no Pix</p>
-              <p className="preco-parcelado-compras">ou R$ 62,00 em 10x de R$ 6,20 sem juros</p>
+              <h1>Hidratante Firmador DermaLift</h1>
+              <p className="preco-compras">R$  69,90 no Pix</p>
+              <p className="preco-parcelado-compras">ou R$  69,90 em 10x de R$ 6,99 sem juros</p>
               <p className="frete-compras">Frete grátis</p>
 
               <div className="quantity-block">
