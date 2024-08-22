@@ -34,10 +34,13 @@ function Home() {
           <h1>Receba Novidades e Ofertas Exclusivas!</h1>
           </div>
           <div className="email-input-container">
-            <label htmlFor="email" className="email-label">E-mail</label>
+            <label htmlFor="email" className="email-label"></label>
             <div className="input-wrapper">
-              <input type="email" id="email" placeholder="Enter your email" className="email-input" />
+              <input type="email" id="email" placeholder="Seu nome aqui" className="email-input" />
+              <input type="email" id="email" placeholder="Seu E-mail" className="email-input" />
               <button className="email-submit-button">Receba as Novidades!</button>
+              <br/>
+
             </div>
           </div>
         </div>

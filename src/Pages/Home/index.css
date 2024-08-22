@@ -149,32 +149,35 @@ body {
   padding: 20px;
   max-width: 400px;
   margin: 0 auto;
-  /* background-color: #f5f5f5; Fundo suave  */
-  /* border-radius: 10px; Bordas arredondadas */
-  border: none;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); Sombra sutil */
+  background-color: transparent; /* Fundo mais claro e suave */
+  border: none; /* Bordas sutis */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  */
 }
 
 .email-label {
   font-size: 18px;
-  margin-bottom: 15px;
-  color: #333;
+  margin-bottom: 10px;
+  border-radius: 4px; /* Bordas arredondadas */
+
+  color: #467459; /* Cor do texto mais suave */
   font-weight: bold;
 }
 
 .input-wrapper {
   display: flex;
+  flex-direction: column; /* Empilhar os elementos verticalmente */
   width: 100%;
+  margin-bottom: 15px; /* Espaço entre os grupos de input e botão */
 }
 
 .email-input {
-  flex: 1;
   padding: 10px 15px;
   font-size: 16px;
-  border: none;
-  border-radius: 5px 0 0 5px; /* Bordas arredondadas apenas no início */
+  border: 1px solid #d0d0d0; /* Borda sutil */
+  border-radius: 5px; /* Bordas arredondadas */
   outline: none;
-  transition: border-color 0.3s ease-in-out;
+  /* transition: border-color 0.3s ease-in-out; */
+  margin-bottom: 10px; /* Espaço entre o input e o botão */
 }
 
 .email-input:focus {
@@ -183,13 +186,16 @@ body {
 
 .email-submit-button {
   padding: 10px 20px;
+  border-radius: 4px; /* Bordas arredondadas */
+
   font-size: 16px;
   background-color: #467459; /* Cor do botão */
   color: #fff;
   border: none;
-  border-radius: 0 5px 5px 0; /* Bordas arredondadas apenas no final */
+  /* border-radius: 5px; */
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  width: 62.9%;
 }
 
 .email-submit-button:hover {
