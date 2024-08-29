@@ -15,8 +15,7 @@ function Header() {
       
     </div>
     {/* <div className="btnLogCad"></div> */}
-    <button className="btnCadastro"><FaRegUserCircle /></button>
-    <button className="btnLogar"><MdLogin /></button>
+
     {/* <button className="btnCart"><MdOutlineShoppingCart /></button> */}
   </div>
   )

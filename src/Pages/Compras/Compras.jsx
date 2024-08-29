@@ -70,7 +70,7 @@ function Compras() {
             
             <div className="produto-info-compras">
             <div className="valores">
-              <h1>Hidratante Firmador DermaLift</h1>
+              <h1>Hidratante Firmador Derma Lift</h1>
               <p className="preco-compras">R$  69,90 no Pix</p>
               <p className="preco-parcelado-compras">ou R$  69,90 em 10x de R$ 6,99 sem juros</p>
               <p className="frete-compras">Frete grátis</p>

@@ -2,9 +2,7 @@
   position: fixed;
   bottom: 20px; /* Distância do botão em relação ao fundo da tela */
   right: 20px;  /* Distância do botão em relação ao lado direito da tela */
-  background-color: #000;
   color: white;
-  padding: 15px 30px;
   border-radius: 50px;
   text-align: center;
   font-size: 16px;
@@ -14,6 +12,15 @@
   transition: background-color 0.3s ease;
   z-index: 5000; /* Garante que o botão fique acima de outros elementos */
   text-decoration: none;
+
+  background-color: #467459;
+  padding: 15px 55px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 0%;
 }
 
 .compraja-button a {
@@ -21,5 +28,5 @@
   text-decoration: none; /* Remove o sublinhado do link */
 } 
 .compraja-button:hover {
-  background-color: #ff8a75;
+  background-color: #467400;
 }

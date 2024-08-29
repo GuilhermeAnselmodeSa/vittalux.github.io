@@ -6,14 +6,6 @@
 
 }
 
-body {
-  background-image: url('../../assets/wallpaper.jpeg');
-  background-size: cover; /* Faz a imagem cobrir toda a área */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  background-attachment: fixed; /* Fixa a imagem de fundo, para não rolar com a página */
-}
-
 #text1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fonte elegante */
   font-size: 2rem; /* Tamanho maior da fonte */
@@ -34,7 +26,7 @@ body {
   padding-top: 150px;
   width: 100%;
   row-gap: 10px;
-  background-image: url('../../assets/wallpaper.jpeg');
+  /* background-image: url('../../assets/wallpaper.jpeg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,13 +60,13 @@ body {
 
 
 .btnVenda {
-  background-color: #d3a123;
-  padding: 15px 50px;
+  background-color: #467459;
+  padding: 15px 55px;
   border: none;
   border-radius: 15px;
-  color: #053114;
+  color: #fff;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 0%;
 }
 
@@ -228,6 +220,8 @@ body {
   font-style: inherit;
   text-align: justify;
 }
+
+
 @media only screen and (max-width: 480px) {
 
 
@@ -266,7 +260,7 @@ body {
     padding: 15px 50px;
     border: none;
     border-radius: 15px;
-    color: #053114;
+    color: #fff;
     cursor: pointer;
     font-size: 16px;
     margin-left: 0%;

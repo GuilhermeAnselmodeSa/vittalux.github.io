@@ -28,7 +28,7 @@
 .quantity-block button {
   width: 30px; /* Largura dos botões */
   height: 30px; /* Altura dos botões */
-  background-color: #ff6f61; /* Cor de fundo dos botões */
+  background-color: #A8895B; /* Cor de fundo dos botões */
   color: #fff; /* Cor do texto dos botões */
   font-size: 18px; /* Tamanho da fonte dos botões */
   border: none; /* Remove a borda dos botões */
@@ -124,7 +124,7 @@
   height: auto;
   padding: 20px 0;
   z-index: 500;
-  background-image: url('../../assets/wallpaper.jpeg');
+  /* background-image: url('../../assets/wallpaper.jpeg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

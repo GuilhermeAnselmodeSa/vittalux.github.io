@@ -4,22 +4,38 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 32px;
-    width: 30%;
-    background-color: #d3a123;;
+    height: 28px;
+    width: 100%;
+    background-color: #d3a123;
     color: white;
     border-radius: 10px;
     padding: 10px 0;
-    margin-left: 35%;
+    margin-left: 0%;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     z-index: 10000; /* Garante que o banner fique acima de outros elementos */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
+  .frete-banner {
+    display: inline-block;
+    white-space: nowrap;
+  }
   
-
+  .frete-banner span {
+    opacity: 0;
+    display: inline-block;
+    margin-right: 2px; /* Adiciona espaço entre as letras */
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
   @media only screen and (max-width: 480px) {
     .frete-banner {
         display: grid;
@@ -27,12 +43,12 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 50%;
+        width: 100%;
         background-color: #d3a123;;
         color: white;
         border-radius: 10px;
         padding: 10px 0;
-        margin-left: 25%;
+        /* margin-left: 1%; */
         text-align: center;
         font-size: 12px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -41,4 +57,21 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       }
       
+      .frete-banner {
+        display: inline-block;
+        white-space: nowrap;
+      }
+      
+      .frete-banner span {
+        opacity: 0;
+        display: inline-block;
+        margin-right: 2px; /* Adiciona espaço entre as letras */
+        animation: fadeIn 0.5s forwards;
+      }
+      
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
   }

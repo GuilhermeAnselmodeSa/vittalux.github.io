@@ -5,9 +5,11 @@ import { HiMiniPencilSquare } from "react-icons/hi2";
 import { Link } from 'react-router-dom';
 import { FaRegUserCircle } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
-import { IoBag } from "react-icons/io5";
+import { PiHandSoap } from "react-icons/pi";
 import { MdOutlinePeople } from "react-icons/md";
 import { VscCallOutgoing } from "react-icons/vsc";
+import { FaList } from "react-icons/fa6";
+import { FaArrowLeft } from "react-icons/fa6";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +21,7 @@ const Sidebar = () => {
   return (
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
       <div className="toggle-button" onClick={toggleSidebar}>
-        {isOpen ? '⮜' : '⮞'}
+        {isOpen ? <FaArrowLeft /> : <FaList />}
       </div>
       <ul>
       <Link id="linkConta" to="/">
@@ -30,11 +32,11 @@ const Sidebar = () => {
         <li id="linkConta"><MdOutlineShoppingCart />Minhas Compras</li>
         </Link>
       <Link id="linkConta" to="/">
-        <li id="linkConta"><IoBag />Produtos</li>
+        <li id="linkConta"><PiHandSoap  />Produtos</li>
         </Link>
-       <Link id='linkConta' to="#sobre-nos">
-       <li id="linkConta"><MdOutlinePeople />
-       Quem somos</li></Link>
+        <a href="#sobre-nos" id="linkConta">
+  <li id="linkConta"><MdOutlinePeople />Quem somos</li>
+</a>
         <Link id="linkConta" to="/sac">
            <li id="linkConta"><VscCallOutgoing />
            SAC</li>

@@ -1,6 +1,7 @@
 .carousel-container {
-    max-width: 300px;
+    max-width: 450px;
     margin: 20px auto;
+
 }
 
 #imgCarrossel{
@@ -8,12 +9,6 @@
     height: 40px;
 }
 
- .legend {
-    background: #d3a123;
-    color: white;
-    font-size: 12px;
-    text-align: center;
-}
 
 @media only screen and (max-width: 480px) {
     .carousel-container {
