@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import produto from '../../img/produto.png';
+import produto from '../../img/imgValor.jpeg';
 import { Link } from 'react-router-dom';
 import Header from '../../components/header/header';
 import Sidemenu from '../../components/sidemenu/sidemenu';

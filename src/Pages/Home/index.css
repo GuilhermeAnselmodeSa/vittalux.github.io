@@ -46,9 +46,10 @@
 
 
 .produto {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   position: relative;
+  border-radius: 5px;
 }
 
 .triggersVendas {
