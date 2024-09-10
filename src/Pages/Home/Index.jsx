@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import produto from '../../img/imgValor.jpeg';
+import btnCom from '../../img/btn-removebg-preview.png';
 import { Link } from 'react-router-dom';
 import Header from '../../components/header/header';
 import Sidemenu from '../../components/sidemenu/sidemenu';
@@ -25,7 +26,9 @@ function Home() {
         {/* <h3 id="text1">Rejuvenescimento visível e firmeza imediata em cada aplicação!</h3> */}
 
         <Link to="/compras">
-          <button className="btnVenda">QUERO COMPRAR</button>
+        <img alt="produto" src={btnCom} className="btnProd" />
+
+          {/* <button className="btnVenda">QUERO COMPRAR</button> */}
         </Link>
         <Carrossel /> 
         <div className="receba-novidades">

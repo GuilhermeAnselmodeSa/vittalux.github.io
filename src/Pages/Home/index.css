@@ -51,7 +51,14 @@
   position: relative;
   border-radius: 5px;
 }
-
+.btnProd {
+  max-width: 50%;
+  display: grid;
+  align-items: center;
+  height: auto;
+  position: relative;
+  border-radius: 5px;
+}
 .triggersVendas {
   display: flex;
   justify-content: center;
