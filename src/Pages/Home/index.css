@@ -46,7 +46,7 @@
 
 
 .produto {
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
   position: relative;
   border-radius: 5px;
@@ -245,13 +245,14 @@
 
   .blocoProduto {
     width: 100%; /* Ajusta a largura do bloco para o tamanho completo */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     display: flex;
     justify-content: center; /* Centraliza o conteúdo dentro do bloco */
   }
 
   .produto {
-    width: 90%; /* Ajusta a largura da imagem para ocupar 90% da largura disponível */
+    margin-top: -29px;
+    width: 100%; /* Ajusta a largura da imagem para ocupar 90% da largura disponível */
     height: auto; /* Mantém a proporção da imagem */
  }
 

@@ -11,18 +11,18 @@ import Carrossel from '../../components/carrossel/carrossel';
 function Home() {
   return (
     <div className="container">
-            <Banner/> 
+      <Banner/> 
       <Sidemenu />
       <Header />
       <div className="content-home">
-        <h3 id="text1">Transforme sua pele com novo hidratante da VittaLux</h3>
+        {/* <h3 id="text1">Transforme sua pele com novo hidratante da VittaLux</h3> */}
         <div className="blocoProduto">
           <img alt="produto" src={produto} className="produto" />
         </div>
         
         <BtnComprar /> {/* Agora o botão será renderizado corretamente */}
 
-        <h3 id="text1">Rejuvenescimento visível e firmeza imediata em cada aplicação!</h3>
+        {/* <h3 id="text1">Rejuvenescimento visível e firmeza imediata em cada aplicação!</h3> */}
 
         <Link to="/compras">
           <button className="btnVenda">QUERO COMPRAR</button>
