@@ -25,6 +25,7 @@ function Footer() {
         </div>
 
         <div className="sac-info">
+          <IoCallSharp />
           <p>+55 15 99171-3753</p>
           {/* <div className="payment-icons">
             <FaCcVisa />

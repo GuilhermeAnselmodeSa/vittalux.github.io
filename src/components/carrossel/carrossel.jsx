@@ -9,16 +9,10 @@ import img3 from '../../assets/img3.jpeg';
 import img4 from '../../assets/img4.jpeg';
 import img5 from '../../assets/img5.jpeg';
 
-function Carrossel() 
-{
+function Carrossel() {
     return (
         <div className="carousel-container">
-            <Carousel 
-                showThumbs={false} 
-                autoPlay={true} 
-                infiniteLoop={true} 
-                showStatus={false} // Desativa o "x of tantos"
-            >
+            <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true}>
                 <div className="divCarrossel">
                     <img className="imgCarrossel" src={img1} alt="Força Máxima" />
                     {/* <p className="legendCarrossel">Efeito lifting</p> */}

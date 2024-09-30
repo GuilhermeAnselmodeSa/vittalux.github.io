@@ -3,16 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.btnCombo-compras{
-  background-color: #d3a123;
-  border: none;
-  border-radius: 5px;
-  font-style: none;
-  width: 30%;
-  height: 50px;
-  color: white;
-  font-size: 15px;
-}
 /* CSS BOTAO DE + E - */
 .quantity-block {
   display: flex;
@@ -184,7 +174,7 @@
   width: 50%;
     height: auto;
   border-radius: 15px;
-  margin-right: 215px;
+  margin-right: 200px;
 }
 
 
